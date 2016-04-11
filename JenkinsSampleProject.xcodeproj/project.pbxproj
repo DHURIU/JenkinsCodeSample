@@ -15,6 +15,7 @@
 		A6629F8E1CB6926F00CC509D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6629F8C1CB6926F00CC509D /* LaunchScreen.storyboard */; };
 		A6629F991CB6926F00CC509D /* JenkinsSampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6629F981CB6926F00CC509D /* JenkinsSampleProjectTests.m */; };
 		A6629FA41CB6926F00CC509D /* JenkinsSampleProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6629FA31CB6926F00CC509D /* JenkinsSampleProjectUITests.m */; };
+		A6B5EE941CBBD10900CBD426 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B5EE931CBBD10900CBD426 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A6629F9F1CB6926F00CC509D /* JenkinsSampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsSampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6629FA31CB6926F00CC509D /* JenkinsSampleProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsSampleProjectUITests.m; sourceTree = "<group>"; };
 		A6629FA51CB6926F00CC509D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B5EE931CBBD10900CBD426 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B5EE941CBBD10900CBD426 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		A6629F721CB6926F00CC509D = {
 			isa = PBXGroup;
 			children = (
+				A6B5EE931CBBD10900CBD426 /* UIKit.framework */,
 				A6629F7D1CB6926F00CC509D /* JenkinsSampleProject */,
 				A6629F971CB6926F00CC509D /* JenkinsSampleProjectTests */,
 				A6629FA21CB6926F00CC509D /* JenkinsSampleProjectUITests */,
