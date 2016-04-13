@@ -17,7 +17,7 @@
 		A6629FA41CB6926F00CC509D /* JenkinsSampleProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6629FA31CB6926F00CC509D /* JenkinsSampleProjectUITests.m */; };
 		A6A664D41CBCCD7800243958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A664D31CBCCD7800243958 /* Foundation.framework */; };
 		A6A664D61CBCCD7E00243958 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A664D51CBCCD7E00243958 /* CoreFoundation.framework */; };
-		A6A664D71CBCD00F00243958 /* UIKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = A6B5EE931CBBD10900CBD426 /* UIKit.framework */; };
+		A6A664D81CBCD0AF00243958 /* UIKit.framework in Sources */ = {isa = PBXBuildFile; fileRef = A6B5EE931CBBD10900CBD426 /* UIKit.framework */; };
 		A6B5EE941CBBD10900CBD426 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B5EE931CBBD10900CBD426 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -257,7 +257,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6A664D71CBCD00F00243958 /* UIKit.framework in Resources */,
 				A6629F8E1CB6926F00CC509D /* LaunchScreen.storyboard in Resources */,
 				A6629F8B1CB6926F00CC509D /* Assets.xcassets in Resources */,
 				A6629F891CB6926F00CC509D /* Main.storyboard in Resources */,
@@ -285,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A664D81CBCD0AF00243958 /* UIKit.framework in Sources */,
 				A6629F861CB6926F00CC509D /* ViewController.m in Sources */,
 				A6629F831CB6926F00CC509D /* AppDelegate.m in Sources */,
 				A6629F801CB6926F00CC509D /* main.m in Sources */,
