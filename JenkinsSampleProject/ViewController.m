@@ -16,6 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    for (<#initialization#>; <#condition#>; <#increment#>) {
+        <#statements#>
+    }
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
