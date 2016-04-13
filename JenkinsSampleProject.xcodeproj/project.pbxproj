@@ -15,6 +15,7 @@
 		A6629F8E1CB6926F00CC509D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6629F8C1CB6926F00CC509D /* LaunchScreen.storyboard */; };
 		A6629F991CB6926F00CC509D /* JenkinsSampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6629F981CB6926F00CC509D /* JenkinsSampleProjectTests.m */; };
 		A6629FA41CB6926F00CC509D /* JenkinsSampleProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6629FA31CB6926F00CC509D /* JenkinsSampleProjectUITests.m */; };
+		A692E03A1CBE5D2700A80BD0 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A692E0391CBE5D2700A80BD0 /* DetailsViewController.m */; };
 		A6A664D41CBCCD7800243958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A664D31CBCCD7800243958 /* Foundation.framework */; };
 		A6A664D61CBCCD7E00243958 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A664D51CBCCD7E00243958 /* CoreFoundation.framework */; };
 		A6A664D81CBCD0AF00243958 /* UIKit.framework in Sources */ = {isa = PBXBuildFile; fileRef = A6B5EE931CBBD10900CBD426 /* UIKit.framework */; };
@@ -55,6 +56,8 @@
 		A6629F9F1CB6926F00CC509D /* JenkinsSampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsSampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6629FA31CB6926F00CC509D /* JenkinsSampleProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsSampleProjectUITests.m; sourceTree = "<group>"; };
 		A6629FA51CB6926F00CC509D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A692E0381CBE5D2700A80BD0 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		A692E0391CBE5D2700A80BD0 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		A6A664D31CBCCD7800243958 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6A664D51CBCCD7E00243958 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		A6B5EE931CBBD10900CBD426 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -118,6 +121,8 @@
 				A6629F821CB6926F00CC509D /* AppDelegate.m */,
 				A6629F841CB6926F00CC509D /* ViewController.h */,
 				A6629F851CB6926F00CC509D /* ViewController.m */,
+				A692E0381CBE5D2700A80BD0 /* DetailsViewController.h */,
+				A692E0391CBE5D2700A80BD0 /* DetailsViewController.m */,
 				A6629F871CB6926F00CC509D /* Main.storyboard */,
 				A6629F8A1CB6926F00CC509D /* Assets.xcassets */,
 				A6629F8C1CB6926F00CC509D /* LaunchScreen.storyboard */,
@@ -285,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6A664D81CBCD0AF00243958 /* UIKit.framework in Sources */,
+				A692E03A1CBE5D2700A80BD0 /* DetailsViewController.m in Sources */,
 				A6629F861CB6926F00CC509D /* ViewController.m in Sources */,
 				A6629F831CB6926F00CC509D /* AppDelegate.m in Sources */,
 				A6629F801CB6926F00CC509D /* main.m in Sources */,

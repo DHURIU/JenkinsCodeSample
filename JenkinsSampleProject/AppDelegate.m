@@ -19,7 +19,7 @@
     // Override point for customization after application launch.
     return YES;
     
-    AppDelegate *appdelegate = [[UIApplication sharedApplication] delegate] ;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
