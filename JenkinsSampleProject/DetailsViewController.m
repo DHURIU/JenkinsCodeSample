@@ -7,6 +7,7 @@
 //
 
 #import "DetailsViewController.h"
+#import "AppDelegate.h"
 
 @interface DetailsViewController ()
 
@@ -20,6 +21,7 @@
     NSString *test ;
     
     NSString *test2 ;
+    AppDelegate *appdelegate = [[UIApplication sharedApplication] delegate] ;
     // Do any additional setup after loading the view.
 }
 
