@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
 
@@ -17,9 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    for (<#initialization#>; <#condition#>; <#increment#>) {
-        <#statements#>
+    for (int i = 0; i < 5; i++) {
+        NSLog(@"i value ==== %d", i) ;
     }
+    
+    AppDelegate *appdelegate = [[UIApplication sharedApplication] delegate] ;
     
     // Do any additional setup after loading the view, typically from a nib.
 }
